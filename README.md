@@ -1,1 +1,1 @@
-# Molly Bloom, the trump card you never have to play
+# Bad at poker? Ask Molly for a helping hand.
