@@ -114,3 +114,9 @@ def card_from_string(card_str):
     rank = card_str[:-1]
     card = Card(RANK[rank], SUIT[suit])
     return card
+
+
+def hand_from_list(card_str_list):
+    if len(card_str_list) != 5:
+        print(card_str_list)
+    return Hand([card_from_string(card_str) for card_str in card_str_list])
