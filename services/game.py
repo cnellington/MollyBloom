@@ -41,7 +41,7 @@ class Game:
             my_hand = self._best_hand(my_cards+board)
             if best_hand is None or my_hand > best_hand:
                 best_hand = my_hand
-            win_count += int(my_hand > opp_hand)
+            win_count += int(my_hand >= opp_hand)
             total += 1
         return (win_count / total), best_hand
 
